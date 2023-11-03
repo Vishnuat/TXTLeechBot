@@ -40,7 +40,7 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["covid"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(' अरे साले फिर से आ गया माँ चुदा जाके  ')
+    editable = await m.reply_text('Send TXT file')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -199,7 +199,7 @@ async def account_login(bot: Client, m: Message):
 
             except Exception as e:
                 await m.reply_text(
-                    f"**लिंक की लौड़े लग गयी 😂**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`"
+                    f"**Can't be uploaded**\n{str(e)}\n**Name** - {name}\n**Link** - `{url}`"
                 )
                 continue
 
