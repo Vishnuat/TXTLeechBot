@@ -1,7 +1,7 @@
 {
     "name":"pyro",
     "description":"Download videos from various websites using this telegram bot",
-    "repository":"https://github.com/meiranbot/TXTLeechBot",
+    "repository":"https://github.com/Vishnuat/TXTLeechBot",
     "buildpacks":[
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
