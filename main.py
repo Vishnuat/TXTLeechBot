@@ -28,7 +28,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(f"<b>✨ Hᴇʟʟᴏ  [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n\nI Cᴀɴ Pʀᴏᴠɪᴅᴇ ᴛxᴛ ꜰɪʟᴇ ᴏᴛ ꜰɪʟᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ\n\nPress /covid</b>>")
+    editable = await m.reply_text(f"<b>✨ Hᴇʟʟᴏ  [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n\nI Cᴀɴ Pʀᴏᴠɪᴅᴇ ᴛxᴛ ꜰɪʟᴇ ᴏᴛ ꜰɪʟᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ\n\nPress /covid</b>")
 
 
 @bot.on_message(filters.command("stop"))
