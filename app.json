@@ -1,7 +1,7 @@
 {
     "name":"pyro",
     "description":"Download videos from various websites using this telegram bot",
-    "repository":"https://github.com/Vishnuat/TXTLeechBot",
+    "repository":"https://github.com/Adrenalinators/TXTLeechBot",
     "buildpacks":[
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
@@ -20,7 +20,7 @@
         },
         "API_HASH":{
             "description":"Get your telegram API HASH from https://my.telegram.org",
-            "value":"0b2b956cc9e134a5be396da8034a2336"
+		    "value":"0b2b956cc9e134a5be396da8034a2336"
         },
         "BOT_TOKEN":{
             "description":"Get from BotFather",
