@@ -23,9 +23,9 @@ import os
 
 bot = Client(
     "bot",
-    bot_token=os.environ.get("BOT_TOKEN"),
-    api_id=int(os.environ.get("API_ID")),
-    api_hash=os.environ.get("API_HASH"))
+         bot_token= "6763408781:AAEMgOCwslBalYr2dpxzGRMZPpBEDm8NDhA",
+         api_id=10499690,
+         api_hash= "87d0414dc159c10225cac921edde640a")
 auth_users = [5033114900,-1001534923424]
 
 
