@@ -2,6 +2,7 @@ from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 import requests
 import json
 import subprocess
+import details
 from pyrogram import Client, filters
 from pyrogram.types.messages_and_media import message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -38,7 +39,7 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["OM"]))
+@bot.on_message(filters.command(["OM"])filters.chat(auth_users)
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('Send TXT file')
     input: Message = await bot.listen(editable.chat.id)
